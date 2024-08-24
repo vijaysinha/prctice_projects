@@ -17,14 +17,15 @@ body{
     height:100%;
     background-color: var(--primary-bg-color);
     position:relative;
+    /* background-color: red; */
 }
 #title{
     font-size: 2rem;
 }
 .boxes{
     border: solid 1px black;
-    width: 35dvw;
-    height: 35dvh;
+    width: 100dvw;
+    height: 45dvh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,8 +34,32 @@ body{
 }
 .box{
     border: solid 1px black;
-    width: 50px;
+    width: 80px;
     height: 50px;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
+    position: relative;
+    margin-left: 5dvh;
+    align-items: center;
+    cursor: pointer;
+}
+#red{
+    background-color: red;
+    color: white;
+}
+#green{
+    background-color: green;
+    color: white;
+}
+#blue{
+    background-color: blue;
+    color: white;
+}
+#orange{
+    background-color: orange;
+    color: rgb(43, 12, 12);
+}
+#lime{
+    background-color: lime;
+    color: rgb(12, 11, 11);
 }
