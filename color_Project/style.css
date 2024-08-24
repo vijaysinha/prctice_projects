@@ -1,0 +1,40 @@
+:root{
+    --primary-bg-color: #ffff;
+    --primary-text-color: black;
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    /* background-color: red; */
+}
+.container{
+    width:100%;
+    height:100%;
+    background-color: var(--primary-bg-color);
+    position:relative;
+}
+#title{
+    font-size: 2rem;
+}
+.boxes{
+    border: solid 1px black;
+    width: 35dvw;
+    height: 35dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.box{
+    border: solid 1px black;
+    width: 50px;
+    height: 50px;
+    display:flex;
+    justify-content: space-between;
+}
